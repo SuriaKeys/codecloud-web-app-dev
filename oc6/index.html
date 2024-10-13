@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ocode - Online Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="splash_screen.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive_menu.css">
+</head>
+<body>
+    <div id="splash-screen">
+        <img src="assets/images/logo.png" alt="Logo" class="splash-logo">
+    </div>
+    
+    <header class="menu__wrapper">
+        <div class="menu__bar">
+            <a href="#" title="Home" aria-label="home" class="logo">
+                <img src="assets/images/logo.png" alt="Logo">
+                <span class="josefin-sans">OceanCode</span>
+            </a>
+            <nav>
+                <button class="burger-menu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="navigation hide">
+                    <li>
+                        <button class="features-button">
+                            Features
+                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                                <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
+                            </svg>
+                        </button>
+                    </li>
+                    <li><a href="start-coding.html" title="Start Coding">Start Coding</a></li>
+                    <li><a href="#templates" title="Templates">Templates</a></li>
+                    <li><a href="#support" title="Support">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="action-buttons hide">
+            <a href="#log-in" title="Log in" class="secondary">Log In</a>
+            <a href="#sign-up" title="Sign up" class="primary">Sign Up</a>
+        </div>
+        
+        <!-- Мобільне меню -->
+        <div class="mobile-menu">
+            <ul>
+                <li>
+                    <button class="features-button">
+                        Features
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                            <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
+                        </svg>
+                    </button>
+                </li>
+                <li><a href="start-coding.html" title="Start Coding">Start Coding</a></li>
+                <li><a href="#templates" title="Templates">Templates</a></li>
+                <li><a href="#support" title="Support">Support</a></li>
+            </ul>
+            <div class="action-buttons">
+                <a href="#log-in" title="Log in" class="secondary">Log In</a>
+                <a href="#sign-up" title="Sign up" class="primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        
+        <section class="congratulations">
+            <h1>
+                <span class="letter">C</span>
+                <span class="letter">o</span>
+                <span class="letter">n</span>
+                <span class="letter">g</span>
+                <span class="letter">r</span>
+                <span class="letter">a</span>
+                <span class="letter">t</span>
+                <span class="letter">u</span>
+                <span class="letter">l</span>
+                <span class="letter">a</span>
+                <span class="letter">t</span>
+                <span class="letter">i</span>
+                <span class="letter">o</span>
+                <span class="letter">n</span>
+                <span class="letter">s</span>
+                <span class="letter">!</span>
+            </h1>
+            <p>You have chosen the best place for developing web interfaces, 
+                with love OceanCode.</p>
+                <h3>Your opportunities:</h3>
+                <div class="opportunities-box">
+                    <h4>Options 1</h4>
+                    <p>Ability to develop mobile applications.</p>
+                </div>
+        </section>
+        
+    </main>
+
+    <script src="splash_screen.js"></script>
+    <script src="responsive_menu.js"></script>
+</body>
+</html>
