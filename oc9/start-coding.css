@@ -91,44 +91,44 @@ iframe {
 
 @media (max-width: 768px) {
     .code-editor {
-        grid-template-columns: 1fr; /* Один стовпець на мобільних */
-        padding: 1rem; /* Зменшити відступи */
+        grid-template-columns: 1fr; 
+        padding: 1rem; 
     }
 
     .code {
-        margin-bottom: 1rem; /* Відстань між блоками коду */
+        margin-bottom: 1rem; 
     }
 
     header {
-        padding: 1rem; /* Зменшити відступи в заголовку */
+        padding: 1rem; 
     }
 
     .logo-image {
-        height: 50px; /* Встановити висоту логотипу */
+        height: 50px; 
         width: auto;  
     }
 
     h1 {
-        font-size: 1rem; /* Зменшити шрифт заголовка на мобільних */
+        font-size: 1rem; 
     }
 
     textarea {
-        font-size: 0.9rem; /* Зменшити шрифт textarea */
+        font-size: 0.9rem;
     }
 
     .output {
-        padding: 1rem; /* Зменшити відступи в output */
+        padding: 1rem; 
     }
 }
 
 .fullscreen-icon {
     cursor: pointer;
     margin-left: 10px;
-    font-size: 1.2rem; /* Можна налаштувати під себе */
+    font-size: 1.2rem; 
 }
 
 
 .fullscreen {
-    grid-column: span 3; /* Займає всю ширину */
-    height: 100%; /* Можна додати для покращення */
+    grid-column: span 3; 
+    height: 100%; 
 }
